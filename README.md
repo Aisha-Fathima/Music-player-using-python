@@ -41,7 +41,7 @@ Once a song is playing, use the following commands:
 -exit to exit the player.
 
 ## Example
-
+```
 Current directory: /home/abcd/Music
 
 Available Songs:
@@ -53,14 +53,27 @@ Enter song number to play (or -1 to exit): 1
 Now playing: song2.wav
 
 Enter command (play, pause, stop, exit): pause
-Paused. Enter 'play' to resume.
+    Paused. Enter 'play' to resume.
+    
 Enter command (play, pause, stop, exit): play
-Resumed.
+    Resumed.
+
+Enter command (play, pause, stop, exit): stop
+Song stopped.
+
+Available Songs:
+0 - song1.mp3
+1 - song2.wav
+2 - song3.mp3
+
+Enter song number to play (or -1 to exit): -1
+Exiting the music player.
 
 
+```
 
 ## Future Enhancements
-Add a graphical user interface (GUI) for easier control.
-Add support for additional audio formats.
-Implement a playlist feature for continuous music playback.
+-Add a graphical user interface (GUI) for easier control.
+-Add support for additional audio formats.
+-Implement a playlist feature for continuous music playback.
 
