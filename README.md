@@ -43,19 +43,21 @@ Once a song is playing, use the following commands:
 ## Example
 
 Current directory: /home/abcd/Music
-```
- Available Songs:
- 0 - song1.mp3
- 1 - song2.wav
- 2 - song3.mp3
 
-  Enter song number to play (or -1 to exit): 1
-  Now playing: song2.wav
+Available Songs:
+0 - song1.mp3
+1 - song2.wav
+2 - song3.mp3
 
-  Enter command (play, pause, stop, exit): pause
-    Paused. Enter 'play' to resume.
-                  Enter command (play, pause, stop, exit): play
-                Resumed. 
+Enter song number to play (or -1 to exit): 1
+Now playing: song2.wav
+
+Enter command (play, pause, stop, exit): pause
+Paused. Enter 'play' to resume.
+Enter command (play, pause, stop, exit): play
+Resumed.
+
+
 
 ## Future Enhancements
 Add a graphical user interface (GUI) for easier control.
